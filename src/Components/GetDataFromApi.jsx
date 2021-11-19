@@ -18,7 +18,7 @@ useEffect(() => {
             getApi(res.data)
             setIsLoading(false)
         })
-    }, 2000);
+    }, 1500);
 
 }, [])
 
